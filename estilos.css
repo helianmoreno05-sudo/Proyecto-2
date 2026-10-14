@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+:root{
+    --color-fondo: #2eda50;
+    --color: #adaaaa;
+--caja: #da8686;
+--borde: #e0e0e0;
+
+}
+@media (prefers-color-scheme: dark) {
+    :root{
+        --color-fondo: #897f61;
+        --color  : #0e0101;
+        --caja: #5717be;
+        --borde: #e0e0e0;
+        --h2: #030000;
+        --h3: #255861;
+        --p: #010000;
+    }
+}
+
+
+*{  
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    font-family: 'poppins', sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color);
+    line-height: 1.5;
+}
+h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: var(--h2);
+
+}
+h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: var(--h3);
+
+}
+p{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: var(--p);
+}
+
+header{
+    background-color: var(--caja);
+    padding: 15px 30px; 
+    text-align: center;
+    border-bottom: 1px solid var(--borde);
+}
+.a{
+text-align: center;
+}
+.colorlinks ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+ 
+}
+.colorlinks a {
+    color: #020000;
+}
+a {
+    color: #000000;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+.b{
+text-align: center;
+
+}
+footer{
+    background-color: var(--caja);
+    padding: 170px 30px; 
+    text-align: center;
+}
+form{
+    display: block;
+    margin-bottom: 5px;
+    max-width: 700px;
+    margin: auto;
+    padding: 30px;
+   
+}
+input, textarea{
+    display: block;
+    width: 100%;
+    padding: 15px;
+   font-size: 18px;
+}
+textarea{
+    height: 200px;
+}
